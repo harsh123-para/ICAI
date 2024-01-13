@@ -16,7 +16,7 @@ scanf("%d",&a[i][j]);
 }	
 }
 printf("Enter Values in Second Matrix ");
-for(i=0;i<5;i++)
+for(i=0;i<2;i++)
 {
 for(j=0;j<3;j++)
 {
@@ -32,7 +32,7 @@ for(k=0;k<2;k++)
 {
 c[i][j]=c[i][j]+a[i][k]*b[k][j];
 }	
-printf("%d",c[i][j]);
+printf("%3d",c[i][j]);
 }
 printf("\n");	
 
